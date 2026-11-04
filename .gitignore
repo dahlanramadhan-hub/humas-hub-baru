@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+env.env
+/vendor/
+/node_modules/
+/public/build/
+/.DS_Store
