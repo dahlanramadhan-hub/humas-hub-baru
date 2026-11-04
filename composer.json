@@ -69,9 +69,15 @@
         ]
     },
     "extra": {
-        "laravel": {
-            "dont-discover": []
-        }
+    "laravel": {
+        "dont-discover": [
+            "laravel/pail",
+            "laravel/sail",
+            "fakerphp/faker",
+            "mockery/mockery",
+            "nunomaduro/collision"
+        ]
+    }
     },
     "config": {
         "optimize-autoloader": true,
